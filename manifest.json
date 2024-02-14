@@ -1,5 +1,5 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
   "name": "Coquette Bow Adder",
   "version": "1.0",
   "description": "Adds coquette bows to all headings on web pages.",
