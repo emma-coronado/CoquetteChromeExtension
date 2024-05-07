@@ -3,7 +3,7 @@
   "name": "Coquette Bows Extension",
   "version": "2.0",
   "description": "Adds coquette bows to all headings on web pages.",
-  "permissions": ["storage", "tabs"],
+  "permissions": ["storage"],
 
   "content_scripts": [
     {
