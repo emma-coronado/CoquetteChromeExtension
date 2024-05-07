@@ -15,15 +15,14 @@
 
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "coquette.png"
-    
+    "default_icon": "images/coquette.png"
   },
 
-"web_accessible_resources": [
-  {
-    "matches": ["<all_urls>"],
-    "resources": ["bow.png"]
-  }
-]
+  "web_accessible_resources": [
+    {
+      "matches": ["<all_urls>"],
+      "resources": ["images/bow.png"]
+    }
+  ]
 }
 
