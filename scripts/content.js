@@ -1,7 +1,7 @@
 // Function to add coquette bows
 function addCoquetteBows(element) {
   const img = document.createElement("img");
-  img.src = chrome.runtime.getURL("bow.png"); 
+  img.src = chrome.runtime.getURL("images/bow.png"); 
   const fontSize = parseFloat(window.getComputedStyle(element).getPropertyValue("font-size"));
   const bowSize = Math.min(fontSize * 1.3, 50); // Adjust the scaling factor and maximum size as needed
   const bowMargin = fontSize * 0.1; // Adjust the margin as needed
